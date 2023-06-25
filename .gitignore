@@ -1,0 +1,34 @@
+# 忽略所有生成的文件和文件夹
+build/
+dist/
+out/
+*.log
+.cache/
+
+# 忽略编辑器和 IDE 相关的文件和文件夹
+.vscode/
+.idea/
+*.iml
+
+# 忽略依赖管理工具生成的文件和文件夹
+node_modules/
+yarn.lock
+package-lock.json
+
+# 忽略运行时生成的文件和文件夹
+logs/
+*.pid
+
+# 忽略敏感信息
+.env
+
+# 忽略压缩文件
+*.zip
+*.rar
+*.tar.gz
+
+# 忽略临时文件和缓存文件
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
