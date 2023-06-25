@@ -1,8 +1,8 @@
-import { RouterProvider, createBrowserRouter, createMemoryRouter } from "react-router-dom";
+import { Spin } from "antd";
+import { RouterProvider, createMemoryRouter } from "react-router-dom";
+import Home from "./Home";
 import PageA from "./PageA";
 import PageB from "./PageB";
-import Home from "./Home";
-import { Spin } from "antd";
 
 const router = createMemoryRouter([
   { path: "/", Component: Home },
